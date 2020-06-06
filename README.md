@@ -16,9 +16,9 @@ Interact with other posts and comment and like another post,
 Logout from one's account. 
 
 # Group Member Names:
-Muhammad Haris. (38021) 
-Qazi Ibrahim Azam. (37997) leader
-Ali Asghar muhammad Ali. (37891)
+Muhammad Haris. (38021) ,
+Qazi Ibrahim Azam. (37997 -leader) ,
+Ali Asghar muhammad Ali. (37891).
 
 # Roles 
 Muhammad Haris. (38021) 
