@@ -5,7 +5,7 @@ Social-Media-App based on java and google Firebase....
 Asalamualikum Sir,
 This is an Application similar to Facebook and Twitter, but with fewer features based on the Google Firebase.
 
-# features 
+# Features 
 A user can:
 SignIn into accounts.
 Register themself.
@@ -17,14 +17,14 @@ Interact with other posts and comment and like another post.    Logout from one'
 # Group Member Names:
 Muhammad Haris. (38021) 
 Qazi Ibrahim Azam. (37997)
-Muhammad Ali Ashgar. (37891)
+Ali Asghar muhammad Ali. (37891)
 
 # Roles 
 Muhammad Haris. (38021) 
 Created the firebase account and linked the project.
 He also created the logic for sign in and sing up.
 
-Muhammad Ali Ashgar. (37891)
+Ali Asghar muhammad Ali.(37891)
 Created all the blueprint templet for us to fill along with finalizing the UI and Design. Also did the comments Were needed
 
 Qazi Ibrahim Azam. (37997)
