@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">290352852596-e3qjabe6a5alf03nevd77r5ktu2k9a56.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://socialapp-5ef6a.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">290352852596</string>
+    <string name="google_api_key" translatable="false">AIzaSyC-0WYCQTfMR70sS5nRnnUvwxjPBiGszX8</string>
+    <string name="google_app_id" translatable="false">1:290352852596:android:afe8839babee69b21a2b21</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyC-0WYCQTfMR70sS5nRnnUvwxjPBiGszX8</string>
+    <string name="google_storage_bucket" translatable="false">socialapp-5ef6a.appspot.com</string>
+    <string name="project_id" translatable="false">socialapp-5ef6a</string>
+</resources>
