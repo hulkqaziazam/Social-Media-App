@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.cornez.muhammadharis.social_app.NewPost">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/NewPOST_Custom_Toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:theme="@style/ThemeOverlay.AppCompat.ActionBar">
+        </android.support.v7.widget.Toolbar>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/NewPOST_Custom_Toolbar"
+            android:orientation="vertical"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Post Image with Status"
+                android:textAlignment="center"
+                android:layout_marginTop="15dp"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="@android:color/white"/>
+            <EditText
+                android:id="@+id/NewPOST_Pic_statusPOST_ID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/input"
+                android:hint="Write something about your picture....."
+                android:inputType="textMultiLine"
+                android:padding="15dp"
+                />
+
+            <ImageButton
+                android:id="@+id/NewPOST_imagePost_ID"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="4dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/select_image" />
+
+            <Button
+                android:id="@+id/NewPOST_PicpostBTN_ID"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button"
+                android:onClick="Post_BTN_CLICK"
+                android:padding="10dp"
+                android:text="Post"
+                android:textAlignment="center"
+                android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="OR WRITE STATUS ONLY"
+                android:textAlignment="center"
+                android:layout_marginTop="15dp"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="@android:color/white"/>
+            <EditText
+                android:id="@+id/NewPOST_statusPOST_ID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/input"
+                android:hint="Write your status....."
+                android:inputType="textMultiLine"
+                android:padding="15dp"/>
+
+            <Button
+                android:id="@+id/NewPOST_status_postBTN_ID"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/button"
+                android:onClick="Status_Post_BTN_CLICK"
+                android:padding="10dp"
+                android:text="Post"
+                android:textAlignment="center"
+                android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+                android:textStyle="bold" />
+        </LinearLayout>
+        <ProgressBar
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerInParent="true"
+            android:id="@+id/NEWPOST_prograssbar"
+            android:visibility="gone"/>
+    </RelativeLayout>
+</ScrollView>

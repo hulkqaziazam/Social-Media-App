@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#46071b</color>
+    <color name="colorPrimaryDark">#31022f</color>
+    <color name="colorAccent">#3c0e1e</color>
+    <color name="POST">#670507</color>
+    <color name="HomeCOLOR">#2d0000</color>
+    <color name="newPOST">#430505</color>
+    <color name="navPane">#bfe6f6</color>\
+    <color name="userProfile">#3B4041</color>
+    <color name="aaaaa">#0C138B</color>
+    <color name="a1">#311F4B</color>
+    <color name="a2">#062744</color>
+    <color name="white">#ffff</color>
+</resources>

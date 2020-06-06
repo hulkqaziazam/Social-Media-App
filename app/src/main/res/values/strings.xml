@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Social Media</string>
+    <string name="drawer_open">Drawer Open</string>
+    <string name="drawer_close">Drawer Close</string>
+
+    <string-array name="countrys">
+        <item>Pakistan</item>
+        <item>India</item>
+        <item>United States</item>
+        <item>United Kingdom</item>
+        <item>Malaysia</item>
+        <item>Indonesia</item>
+        <item>Singapore</item>
+        <item>Italy</item>
+        <item>France</item>
+        <item>New Zealand</item>
+        <item>Afghanistan</item>
+    </string-array>
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string-array name="relationship">
+        <item>Single</item>
+        <item>Married</item>
+        <item>In Relationship</item>
+    </string-array>
+</resources>

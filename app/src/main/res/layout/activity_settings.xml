@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.cornez.muhammadharis.social_app.setup_Account"
+    android:background="@drawable/background">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/Settings_Custom_Toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+            app:title="Account Settings"
+            app:titleTextColor="@color/white">
+        </android.support.v7.widget.Toolbar>
+        <TextView
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Update Your Details"
+            android:textAlignment="center"
+            android:background="@drawable/button"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:textSize="25dp"
+            android:layout_marginTop="10dp"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/Settings_profile"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/profile" />
+        <EditText
+            android:id="@+id/Settings_Fullname_id"
+            android:layout_width="250dp"
+            android:layout_gravity="center"
+            android:layout_height="70dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/input"
+            android:drawableLeft="@drawable/name"
+            android:drawableRight="@drawable/name"
+            android:hint=" Full Name"
+            android:inputType="textMultiLine"
+            android:padding="20dp"
+            android:textAlignment="center"/>
+
+        <EditText
+            android:id="@+id/Settings_status"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:layout_height="120dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/input"
+            android:drawableLeft="@drawable/email"
+            android:drawableRight="@drawable/email"
+            android:hint=" Status"
+            android:inputType="textMultiLine"
+            android:padding="20dp"
+            android:textAlignment="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+
+        <EditText
+            android:id="@+id/Settings_username_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/input"
+            android:drawableLeft="@drawable/username"
+            android:hint=" Username"
+            android:inputType="textMultiLine"
+            android:padding="14dp" />
+
+
+
+        <EditText
+            android:id="@+id/Settings_DOB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/input"
+            android:drawableLeft="@drawable/country"
+            android:hint=" Choose Date"
+            android:padding="14dp"
+            android:onClick="DateChoose"/>
+        <EditText
+            android:id="@+id/Settings_Gender_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/input"
+            android:drawableLeft="@drawable/country"
+            android:hint=" Gender"
+            android:inputType="textMultiLine"
+            android:padding="14dp" />
+        <EditText
+            android:id="@+id/Settings_Relationship_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/input"
+            android:drawableLeft="@drawable/country"
+            android:hint=" Relationship"
+            android:inputType="textMultiLine"
+            android:padding="14dp" />
+        <EditText
+            android:id="@+id/Setting_Country_ID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/input"
+            android:drawableLeft="@drawable/country"
+            android:hint=" Country"
+            android:inputType="textMultiLine"
+            android:padding="14dp" />
+
+        <Button
+            android:id="@+id/Settings_Save_BTN"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/button"
+            android:onClick="Update_BUTTON_CLICK"
+            android:padding="15dp"
+            android:text="UPDATE"
+            android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"/>
+    </LinearLayout>
+</ScrollView>
